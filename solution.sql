@@ -8,3 +8,18 @@ select n,
         end
 from bst
 order by n
+
+# weather observation
+
+SELECT city, CHAR_LENGTH(city) as len 
+FROM station
+ORDER BY len ASC, city
+LIMIT 1;
+
+SELECT city, CHAR_LENGTH(city) as len 
+FROM station
+ORDER BY len DESC, city DESC
+LIMIT 1;
+
+
+
