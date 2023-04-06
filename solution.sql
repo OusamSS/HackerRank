@@ -1,3 +1,5 @@
+#binary search tree solution
+
 select n,
     case
         when p is null then "Root"
